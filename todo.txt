@@ -27,13 +27,14 @@ invalid property error
         | TODO |
          ------
 
-scrolling animation
+project card 
+template section
 close the hamburger menu after navlink click
 
          --------
         | EXTRAS |
          --------
 
-horizontal scroll for 
+horizontal scroll for projct card 
 decrease transition time for hamburger
 make a component for project card

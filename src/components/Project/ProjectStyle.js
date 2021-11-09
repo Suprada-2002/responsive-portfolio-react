@@ -32,7 +32,6 @@ export const Wrapper = styled.section`
     .card {
       flex-direction: column;
       border-radius: 10px;
-      // box-shadow: 5px 5px 20px var(--white);
       background: linear-gradient(
         to right,
         var(--light_blue),
@@ -40,6 +39,10 @@ export const Wrapper = styled.section`
       );
       color: var(--white);
       text-align: center;
+
+      &:hover {
+        box-shadow: 5px 5px 20px var(--white);
+      }
 
       a {
         color: var(--white);
@@ -64,7 +67,7 @@ export const Wrapper = styled.section`
       img {
         padding: 0.3rem 0.3rem;
         width: 340px;
-        height: 250px;
+        aspect-ratio: 3 / 2;
         border-radius: 20px;
       }
     }
